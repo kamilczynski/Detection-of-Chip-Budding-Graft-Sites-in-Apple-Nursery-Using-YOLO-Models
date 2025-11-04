@@ -1,18 +1,29 @@
-{"name": "YOLOv8s_RGB8S", "path": r"C:\Users\HARDPC\runs\train_RGB8S\yolov8s_RGB8S\weights\best.pt", "map5095": 0.975},
-    {"name": "YOLOv11s_RGBG11S", "path": r"C:\Users\HARDPC\runs\train_RGB11S\yolov11s_RGB11S\weights\best.pt", "map5095": 0.975},
-    {"name": "YOLOv12s_RGBG12S", "path": r"C:\Users\HARDPC\runs\train_RGB12S\yolov12s_RGB12S\weights\best.pt", "map5095": 0.973},
-    {"name": "YOLOv8s_NIR8S", "path": r"C:\Users\HARDPC\runs\train_NIR8S\yolov8s_NIR8S\weights\best.pt", "map5095": 0.984},
-    {"name": "YOLOv11s_NIR11S", "path": r"C:\Users\HARDPC\runs\train_NIR11S\yolov11s_NIR11S\weights\best.pt", "map5095": 0.986},
-    {"name": "YOLOv12s_NIR12S", "path": r"C:\Users\HARDPC\runs\train_NIR12S\yolov12s_NIR12S\weights\best.pt", "map5095": 0.986},
-    {"name": "YOLOv8s_RE8S", "path": r"C:\Users\HARDPC\runs\train_RE8S\yolov8s_RE8S\weights\best.pt", "map5095": 0.985},
-    {"name": "YOLOv11s_RE11S", "path": r"C:\Users\HARDPC\runs\train_RE11S\yolov11s_RE11S\weights\best.pt", "map5095": 0.985},
-    {"name": "YOLOv12s_RE12S", "path": r"C:\Users\HARDPC\runs\train_RE12S\yolov12s_RE12S\weights\best.pt", "map5095": 0.983},
-    {"name": "YOLOv8s_R8S", "path": r"C:\Users\HARDPC\runs\train_R8S\yolov8s_R8S\weights\best.pt", "map5095": 0.941},
-    {"name": "YOLOv11s_R11S", "path": r"C:\Users\HARDPC\runs\train_R11S\yolov11s_R11S\weights\best.pt", "map5095": 0.949},
-    {"name": "YOLOv12s_R12S", "path": r"C:\Users\HARDPC\runs\train_R12S\yolov12s_R12S\weights\best.pt", "map5095": 0.952},
-    {"name": "YOLOv8s_G8S", "path": r"C:\Users\HARDPC\runs\train_G8S\yolov8s_G8S\weights\best.pt", "map5095": 0.973},
-    {"name": "YOLOv11s_G11S", "path": r"C:\Users\HARDPC\runs\train_G11S\yolov11s_G11S\weights\best.pt", "map5095": 0.974},
-    {"name": "YOLOv12s_G12S", "path": r"C:\Users\HARDPC\runs\train_G12S\yolov12s_G12S\weights\best.pt", "map5095": 0.972},
+    {"name": "YOLOv8s_RED8S", "path": r"C:\Users\HARDPC\runs\train_RED8S\yolov8s_RED8S\weights\best.pt", "map5095": 0.975},
+    {"name": "YOLOv9s_REDG9S", "path": r"C:\Users\HARDPC\runs\train_RED9S\yolov9s_RED9S\weights\best.pt", "map5095": 0.975},
+    {"name": "YOLOv10s_RED10S", "path": r"C:\Users\HARDPC\runs\train_RED10S\yolov10s_RED10S\weights\best.pt", "map5095": 0.973},
+    {"name": "YOLOv11s_RED11S", "path": r"C:\Users\HARDPC\runs\train_RED11S\yolov11s_RED11S\weights\best.pt", "map5095": 0.984},
+    {"name": "YOLOv12s_RED112S", "path": r"C:\Users\HARDPC\runs\train_RED12S\yolov12s_RED12S\weights\best.pt", "map5095": 0.986},
+  
+    {"name": "YOLOv8s_YELLOW8S", "path": r"C:\Users\HARDPC\runs\train_YELLOW8S\yolov8s_YELLOW8S\weights\best.pt", "map5095": 0.975},
+    {"name": "YOLOv9s_YELLOW9S", "path": r"C:\Users\HARDPC\runs\train_YELLOW9S\yolov9s_YELLOW9S\weights\best.pt", "map5095": 0.975},
+    {"name": "YOLOv10s_YELLOW10S", "path": r"C:\Users\HARDPC\runs\train_YELLOW10S\yolov10s_YELLOW10S\weights\best.pt", "map5095": 0.973},
+    {"name": "YOLOv11s_YELLOW11S", "path": r"C:\Users\HARDPC\runs\train_YELLOW11S\yolov11s_YELLOW11S\weights\best.pt", "map5095": 0.984},
+    {"name": "YOLOv12s_YELLOW112S", "path": r"C:\Users\HARDPC\runs\train_YELLOW12S\yolov12s_YELLOW12S\weights\best.pt", "map5095": 0.986},
+
+    {"name": "YOLOv8s_PURPLE8S", "path": r"C:\Users\HARDPC\runs\train_PURPLE8S\yolov8s_PURPLE8S\weights\best.pt", "map5095": 0.975},
+    {"name": "YOLOv9s_PURPLE9S", "path": r"C:\Users\HARDPC\runs\train_PURPLE9S\yolov9s_PURPLE9S\weights\best.pt", "map5095": 0.975},
+    {"name": "YOLOv10s_PURPLE10S", "path": r"C:\Users\HARDPC\runs\train_PURPLE10S\yolov10s_PURPLE10S\weights\best.pt", "map5095": 0.973},
+    {"name": "YOLOv11s_PURPLE11S", "path": r"C:\Users\HARDPC\runs\train_PURPLE11S\yolov11s_PURPLE11S\weights\best.pt", "map5095": 0.984},
+    {"name": "YOLOv12s_PURPLE112S", "path": r"C:\Users\HARDPC\runs\train_PURPLE12S\yolov12s_PURPLE12S\weights\best.pt", "map5095": 0.986},
+
+    {"name": "YOLOv8s_MIXCOLORS", "path": r"C:\Users\HARDPC\runs\train_MIXCOLOR8S\yolov8s_MIXCOLOR8S\weights\best.pt", "map5095": 0.975},
+    {"name": "YOLOv9s_MIXCOLOR9S", "path": r"C:\Users\HARDPC\runs\train_MIXCOLOR9S\yolov9s_MIXCOLOR9S\weights\best.pt", "map5095": 0.975},
+    {"name": "YOLOv10s_MIXCOLOR10S", "path": r"C:\Users\HARDPC\runs\train_MIXCOLOR10S\yolov10s_MIXCOLOR10S\weights\best.pt", "map5095": 0.973},
+    {"name": "YOLOv11s_MIXCOLOR11S", "path": r"C:\Users\HARDPC\runs\train_MIXCOLOR11S\yolov11s_MIXCOLOR11S\weights\best.pt", "map5095": 0.984},
+    {"name": "YOLOv12s_MIXCOLOR112S", "path": r"C:\Users\HARDPC\runs\train_MIXCOLOR12S\yolov12s_MIXCOLOR12S\weights\best.pt", "map5095": 0.986},
+
+
+
 
 
 
