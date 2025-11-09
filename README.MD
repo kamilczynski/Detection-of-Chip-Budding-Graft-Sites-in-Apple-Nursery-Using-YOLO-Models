@@ -28,14 +28,26 @@ Interactive visualization tool for inspecting YOLO-style segmentation annotation
 ### `04_DataSetsOrganizer.py`
 Comprehensive dataset management utility for building synchronized YOLO detection and segmentation datasets from raw sources. Implements dual-mode organization with identical train/validation/test splits and automatic folder structure generation. Performs validation of image–label pairs, generates CSV reports for missing or invalid files, and produces per-split statistics. Includes a dark-themed `tkinter` GUI for directory selection, class histogram visualization, and controlled data distribution across subsets. Used to standardize and replicate dataset preparation workflows for joint detection–segmentation experiments.
 
+<p align="center">
+  <img src="DataOrganizer.png" alt="DataOrganizer.png " width="800"/>
+</p>
+
 ### `05_Training.py`
 Training script for YOLO-based object detection using the Ultralytics framework.  Performs environment verification for Python, PyTorch, CUDA, cuDNN, and JupyterLab versions to ensure reproducible training conditions. Generates a structured YOLO-compatible dataset configuration (`data.yaml`) and validates directory integrity before training. Executes model initialization and training with configurable hyperparameters (optimizer, learning rate, batch size, momentum) on GPU-enabled systems. Designed for automated reproducible experimentation and performance benchmarking of YOLO-based models.
 
 ### `06_ModelDETECTION_evaluation_using_test_set.py`
 Evaluation and inference script for assessing YOLO-based object detection models on the TEST set. Performs GPU-accelerated validation with automatic metric computation (Precision, Recall, F1, mAP@0.5, mAP@[.5:.95]) using the Ultralytics API. Parses dataset configuration from `data.yaml`, verifies TEST set integrity, and saves numerical results to `metrics_summary_testset.csv`. Executes full prediction over the TEST set, exporting visualized detections and a comprehensive JSON file with bounding-box coordinates, confidences, and class IDs. Designed for standardized post-training model validation and reproducible benchmark comparison across experimental runs.
 
+<p align="center">
+  <img src="detection.jpg" alt="detection.jpg" width="800"/>
+</p>
+
 ### `07_ModelSEGMENTATION_evaluation_using_test_set.py`
 Evaluation and visualization script for YOLO-based instance segmentation models on the TEST set. Performs CUDA-accelerated validation and computes segmentation-specific metrics (Precision, Recall, F1, mAP@0.5, mAP@[.5:.95]) using the Ultralytics API. Parses dataset configuration from `data.yaml`, validates TEST set integrity, and saves numerical summaries to `metrics_summary_testset.csv`. Executes inference on the TEST set, exporting results as a structured JSON file containing bounding boxes, class IDs, confidences, and binary mask data. Generates semi-transparent colored overlays and per-instance binary masks for qualitative visualization, enabling detailed segmentation performance assessment.
+
+<p align="center">
+  <img src="segmentation.jpg" alt="segmentation.jpg" width="800"/>
+</p>
 
 ### `08_RTX_5080-performance_TORCH.py`
 High-performance benchmarking suite for YOLO detection and segmentation models using CUDA acceleration on RTX-class GPUs. Performs multi-model evaluation sessions with warmup, cooldown, and FP16 inference to measure throughput (FPS), latency, and jitter stability. Implements automatic GPU stabilization, precision timing, and outlier trimming to ensure reliable and reproducible measurements. Generates per-session and global benchmark reports in `.xlsx` format, summarizing statistical performance metrics across all tested models. Designed for laboratory-grade inference benchmarking, comparative efficiency analysis, and GPU performance profiling in PyTorch environments.
