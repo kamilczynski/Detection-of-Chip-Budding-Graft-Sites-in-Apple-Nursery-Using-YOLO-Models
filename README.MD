@@ -8,5 +8,8 @@
 If you use this repository, please cite:
 --It will be available after publication--
 
-01_ImageScaling.py
-Standalone preprocessing tool providing graphical batch image resizing via OpenCV. Implements a customtkinter interface for selecting input/output directories and specifying target resolution parameters. Supports common image formats (.jpg, .png, .bmp, .tiff) and automatically preserves file naming. Intended for dataset standardization and dimensional unification in machine learning and computer vision pipelines.
+### `01_ImageScaling.py`
+Graphical preprocessing tool implementing batch image resizing via OpenCV.  
+Features an interactive `customtkinter` interface for selecting input/output directories and specifying target dimensions.  
+Supports standard image formats (`.jpg`, `.jpeg`, `.png`, `.bmp`, `.tiff`) with automatic folder management and preserved filenames.  
+Used for dataset normalization and resolution unification in computer vision and machine learning pipelines.
